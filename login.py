@@ -6,30 +6,25 @@ driver = webdriver.Chrome()
 driver.implicitly_wait(30)
 driver.maximize_window()
 
-# navigate to the application home page
-driver.get("https://accounts.google.com/")
+# arahkan ke halaman beranda aplikasi
+sopir . dapatkan ( "https://yuhofactory@gmail.com/" )
 
-#get the username textbox
-login_field = driver.find_element_by_name("identifier")
-login_field.clear()
+#dapatkan kotak teks nama pengguna
+login_field  =  driver . find_element_by_name ( "yuhofactory@gmail.com" )
+login_field . jelas ()
 
-#enter username
-login_field.send_keys("ENTER USERNAME HERE")
-login_field.send_keys(u'\ue007') #unicode for enter key
-time.sleep(2)
+#Masukkan nama pengguna
+login_field . send_keys ( "yuhofactory@gmail.com " )
+login_field . send_keys ( u' \ue007 ' ) #unicode untuk memasukkan kunci
+waktu . tidur ( 2 )
 
-#get the password textbox
-password_field = driver.find_element_by_name("password")
-password_field.clear()
+#dapatkan kotak teks kata sandi
+password_field  =  driver . find_element_by_name ( "Mr008800." )
+kata sandi_bidang . jelas ()
 
-#enter password
-password_field.send_keys("ENTER PASSWORD HERE")
-password_field.send_keys(u'\ue007') #unicode for enter key
-time.sleep(10)
+#Masukkan kata kunci
+kata sandi_bidang . send_keys ( "Mr008800." )
+kata sandi_bidang . send_keys ( u' \ue007 ' ) #unicode untuk memasukkan kunci
+waktu . tidur ( 10 )
 
-#navigate to gmail
-driver.get("https://mail.google.com/")
-
-
-
-
+#navigasi ke gmail
